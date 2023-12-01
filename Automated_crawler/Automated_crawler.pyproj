@@ -21,9 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\Desktop\2023_09\NCBI_GSE\NCBI_GSE_v5_control.py">
-      <Link>NCBI_GSE_v5_control.py</Link>
-    </Compile>
+    <Compile Include="NCBI_GSE_v5_control.py" />
     <Compile Include="Automated_crawler.py" />
   </ItemGroup>
   <ItemGroup>
