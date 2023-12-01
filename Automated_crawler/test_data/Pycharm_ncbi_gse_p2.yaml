@@ -1,0 +1,20 @@
+src:
+  module: parse
+  yaml: Pycharm_configure
+Configure:
+  dilivery_once: 20
+  storage_num: 20
+  mission_num: 10
+  dilivery_start: 0
+  dilivery_end: none
+  webdrive: True
+  keep: False
+  parse: False
+  parse_type: none
+  download_html: True
+  TIMEOUT: 6
+URL:
+  mode: loop_range_file
+  base: https://www.ncbi.nlm.nih.gov/geo/browse/?view=series&display=100&page=%%%%%%&zsort=date
+  ranger: Uncomplete.list
+Switch: on
